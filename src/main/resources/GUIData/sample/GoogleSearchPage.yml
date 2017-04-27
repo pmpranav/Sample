@@ -1,0 +1,13 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+pageTitle:
+    US: "Google"
+elements:
+    searchTextField:
+        locators:
+            US: "name=q"
+    searchButton:
+        locators:
+            US: "name=btnG"
+pageValidators: [
+    searchTextField
+]
